@@ -3,11 +3,15 @@ const Banner = (props) => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>
-                <span  className={styles.title1}>Coffee</span>
-                <span  className={styles.title2}>Connoisseur</span>
+                <span className={styles.title1}>Coffee</span>
+                <span className={styles.title2}>Connoisseur</span>
             </h1>
-            <p className={styles.subtitle}>Discover Local Coffe Shops</p>
-            <button className={styles.button} onClick={props.handleOnClick}>{props.buttonText}</button>
+
+            <p className={styles.subTitle}>Discover Local Coffe Shops</p>
+
+            <div className={styles.buttonWrapper}>
+                <button className={styles.button} onClick={props.handleOnClick}>{props.buttonText}</button>
+            </div>
         </div>
     )
 }
