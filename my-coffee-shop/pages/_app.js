@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Component {...pageProps} />
-      <footer>
+      <footer className={styles.footer}>
       2022 @Jason Navarro 
       </footer>
     </div>

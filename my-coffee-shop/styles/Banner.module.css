@@ -1,13 +1,15 @@
 /** By default, this is a mobile breakpoint **/
 .container {
     margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
   }
   
   .title {
     letter-spacing: -0.025em;
     font-weight: 800;
     color: var(--text-black);
-  
+    font-family: 'PaletteMosaic';
     font-size: 3rem /* 48px */;
     line-height: 1;
   }
@@ -25,7 +27,7 @@
     margin-top: 0.75rem;
     font-size: 1.5rem /* 24px */;
     line-height: 2rem /* 32px */;
-  
+    font-family: 'IBMPlexSans';
     color: var(--text-white-100);
   }
   
